@@ -1,0 +1,217 @@
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 1024px) {
+    .header-group {
+        display: none;
+    }
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .management {
+        flex-direction: column;
+        text-align: center;
+    }
+    .customer {
+        flex-direction: column-reverse;
+    }
+    .collobarative {
+        flex-direction: column;
+        text-align: center;
+    }
+    .price-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .price-block {
+        margin-bottom: 30px;
+    }
+    .client-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .client-block {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .product-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .product-block {
+        margin-bottom: 30px;
+    }
+    .join {
+        width: 860px;
+    }
+}
+
+@media (max-width: 768px) {
+    .process-general {
+        flex-direction: column-reverse;
+    }
+    .join {
+        width: 90%;
+        height: 100%;
+        flex-direction: column;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .footer-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer-inputs {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero img {
+        padding-top: 30px;
+        width: 100%;
+    }
+    .product h1 {
+        width: 90%;
+    }
+    .management img {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .customer img {
+        width: 100%;
+    }
+    .customer-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .collobarative img {
+        width: 100%;
+    }
+    .process p {
+        width: 100%;
+    }
+    .contents p {
+        width: 90%;
+    }
+    .client p {
+        width: 90%;
+    }
+}
+
+@media (max-width: 450px) {
+    .hero-text h1 {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 38px;
+    }
+    .hero-text p {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .hero-buttons {
+        justify-content: center;
+    }
+    .process-general {
+        flex-direction: column;
+    }
+    .product-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .management-text p {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .management-text h6 {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .collobarative p {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .collobarative-text h6 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .join-text h2 {
+        width: 85%;
+    }
+    .footer-general {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-inputs {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .customer p {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .customer-checkbox h6 {
+        width: 90%;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .process-img-one div {
+        width: 224px;
+        text-align: center;
+    }
+    .join img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    
+}
+
+@media (max-width: 320px) {
+    .hero-text h1 {
+        line-height: 50px;
+    }
+    .hero-buttons button {
+        font-size: 14px;
+        padding: 15px 31px;
+    }
+    .process-img-one div {
+        width: 174px;
+    }
+    .footer-inputs input {
+        width: 285px;
+    }
+    .join {
+        padding-left: 30px;
+    }
+    .client-block {
+        width: 287px;
+    }
+    .price-block {
+        width: 302px;
+    }
+}

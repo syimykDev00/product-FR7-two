@@ -41,6 +41,9 @@
     .client-block {
         margin-bottom: 30px;
     }
+    .burger-menu {
+        display: block;
+    }
 }
 
 @media (max-width: 992px) {
